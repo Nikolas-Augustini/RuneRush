@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://cwtf1yf37ry2t"]
+
+[ext_resource type="PackedScene" uid="uid://cp0hef625q0sa" path="res://battleScenes/fightButton.tscn" id="1_tyv75"]
+
+[node name="Node2D" type="Node2D" unique_id=319709568]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1043075969]
+
+[node name="TextureButton" parent="." unique_id=1595699183 instance=ExtResource("1_tyv75")]
