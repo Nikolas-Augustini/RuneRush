@@ -1,8 +1,10 @@
 [gd_scene format=3 uid="uid://cdhva2grq5l22"]
 
 [ext_resource type="Texture2D" uid="uid://bifag1tu6w8js" path="res://UI-assets/soul.png" id="1_7iwn2"]
+[ext_resource type="Script" uid="uid://b78xxi4bbd7al" path="res://Scripts/soul-movement.gd" id="1_rujom"]
 
 [node name="CharacterBody2D" type="CharacterBody2D" unique_id=457028180]
+script = ExtResource("1_rujom")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=59552872]
 position = Vector2(334.8, 242.8)

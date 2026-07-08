@@ -14,24 +14,24 @@ b = Vector2(148, 0)
 b = Vector2(147, 0)
 
 [node name="SoulCage" type="StaticBody2D" unique_id=1674561838]
-position = Vector2(560, 317)
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1261986613]
+position = Vector2(335, 252)
 texture = ExtResource("1_3f7ju")
 script = ExtResource("1_gsb2k")
 
 [node name="leftWall" type="CollisionShape2D" parent="." unique_id=1623194312]
-position = Vector2(-73, 10)
+position = Vector2(262, 262)
 shape = SubResource("SegmentShape2D_b0pbs")
 
 [node name="rightWall" type="CollisionShape2D" parent="." unique_id=1406896190]
-position = Vector2(73, 11)
+position = Vector2(408, 263)
 shape = SubResource("SegmentShape2D_b0pbs")
 
 [node name="topWall" type="CollisionShape2D" parent="." unique_id=1706192105]
-position = Vector2(-74, -73)
+position = Vector2(261, 179)
 shape = SubResource("SegmentShape2D_7t1lk")
 
 [node name="bottomWall" type="CollisionShape2D" parent="." unique_id=1611144878]
-position = Vector2(-74, 73)
+position = Vector2(261, 325)
 shape = SubResource("SegmentShape2D_x0ffp")
