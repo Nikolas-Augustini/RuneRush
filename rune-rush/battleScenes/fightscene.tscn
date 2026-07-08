@@ -1,9 +1,13 @@
 [gd_scene format=3 uid="uid://cwtf1yf37ry2t"]
 
-[ext_resource type="PackedScene" uid="uid://cp0hef625q0sa" path="res://battleScenes/fightButton.tscn" id="1_tyv75"]
+[ext_resource type="Texture2D" uid="uid://dpujdycvpn3va" path="res://UI-assets/tmp-background.png" id="1_tyv75"]
 
 [node name="Node2D" type="Node2D" unique_id=319709568]
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1043075969]
+position = Vector2(322, 242)
 
-[node name="TextureButton" parent="." unique_id=1595699183 instance=ExtResource("1_tyv75")]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=876945785]
+position = Vector2(320.74988, 242.24998)
+scale = Vector2(3.9176846, 4.8249993)
+texture = ExtResource("1_tyv75")

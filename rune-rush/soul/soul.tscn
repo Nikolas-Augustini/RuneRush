@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://cdhva2grq5l22"]
+
+[ext_resource type="Texture2D" uid="uid://bifag1tu6w8js" path="res://UI-assets/soul.png" id="1_7iwn2"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=457028180]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=59552872]
+position = Vector2(334.8, 242.8)
+texture = ExtResource("1_7iwn2")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=1972997054]
+position = Vector2(334.8, 243.8)
+polygon = PackedVector2Array(-1, -5, 1, -5, 1, -6, 3, -9, 5, -9, 8, -6, 8, 1, 6, 1, 6, 3, 4, 3, 4, 5, 2, 5, 2, 7, -2, 7, -2, 5, -4, 5, -4, 3, -6, 3, -6, 1, -8, 1, -8, -6, -6, -9, -3, -9, -1, -6)

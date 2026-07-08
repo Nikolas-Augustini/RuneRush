@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://wdoosbfagmmn"
-path="res://.godot/imported/orange-fight.png-e904fd9b0593cde222c8be4a1eef7c26.ctex"
+uid="uid://5c63rbetlgfx"
+path="res://.godot/imported/kris-box.png-8897c4a23b39a6271f5d17297dcdb915.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UI/orange-fight.png"
-dest_files=["res://.godot/imported/orange-fight.png-e904fd9b0593cde222c8be4a1eef7c26.ctex"]
+source_file="res://UI-assets/kris-box.png"
+dest_files=["res://.godot/imported/kris-box.png-8897c4a23b39a6271f5d17297dcdb915.ctex"]
 
 [params]
 

@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cp0hef625q0sa"]
 
-[ext_resource type="Texture2D" uid="uid://wdoosbfagmmn" path="res://UI/orange-fight.png" id="1_qt3nl"]
-[ext_resource type="Texture2D" uid="uid://cj14jdx5hvhjr" path="res://UI/yellow-fight.png" id="2_tpjeo"]
+[ext_resource type="Texture2D" uid="uid://wdoosbfagmmn" path="res://UI-assets/orange-fight.png" id="1_qt3nl"]
+[ext_resource type="Texture2D" uid="uid://cj14jdx5hvhjr" path="res://UI-assets/yellow-fight.png" id="2_tpjeo"]
 
 [node name="TextureButton" type="TextureButton" unique_id=1595699183]
 offset_right = 31.0

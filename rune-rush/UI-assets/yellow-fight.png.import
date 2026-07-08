@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cj14jdx5hvhjr"
-path="res://.godot/imported/yellow-fight.png-9055a2d65cd45c224d8ae008b7f0e3ed.ctex"
+path="res://.godot/imported/yellow-fight.png-ae8fc4933e488a896b811ce2f0d3b7ac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UI/yellow-fight.png"
-dest_files=["res://.godot/imported/yellow-fight.png-9055a2d65cd45c224d8ae008b7f0e3ed.ctex"]
+source_file="res://UI-assets/yellow-fight.png"
+dest_files=["res://.godot/imported/yellow-fight.png-ae8fc4933e488a896b811ce2f0d3b7ac.ctex"]
 
 [params]
 

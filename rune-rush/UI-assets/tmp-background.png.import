@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://1pgnndbr66d"
-path="res://.godot/imported/PC _ Computer - Deltarune - User Interface - Battle Menu(1).png-538c9c3952278c8eb90e6253bbe0b766.ctex"
+uid="uid://dpujdycvpn3va"
+path="res://.godot/imported/tmp-background.png-e423bd594d4d2d6cfd74c8923ce123f8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UI/PC _ Computer - Deltarune - User Interface - Battle Menu(1).png"
-dest_files=["res://.godot/imported/PC _ Computer - Deltarune - User Interface - Battle Menu(1).png-538c9c3952278c8eb90e6253bbe0b766.ctex"]
+source_file="res://UI-assets/tmp-background.png"
+dest_files=["res://.godot/imported/tmp-background.png-e423bd594d4d2d6cfd74c8923ce123f8.ctex"]
 
 [params]
 
