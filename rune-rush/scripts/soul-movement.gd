@@ -9,3 +9,7 @@ func get_input():
 func _physics_process(delta):
 	get_input()
 	move_and_slide()
+
+#adds the soul to group player for hitbox registration
+func _ready():
+	add_to_group("soul")

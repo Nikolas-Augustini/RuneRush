@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://m2h4me5x8r77"]
 
-[ext_resource type="Texture2D" uid="uid://cvh8moplyp12l" path="res://UI-assets/soulCage.png" id="1_3f7ju"]
-[ext_resource type="Script" uid="uid://vp7s51vj4ig1" path="res://battleSequence/soulCage/cage_tween.gd" id="1_gsb2k"]
+[ext_resource type="Texture2D" uid="uid://cvh8moplyp12l" path="res://UI-assets/soulCage.png" id="1_w1kix"]
+[ext_resource type="Script" uid="uid://vp7s51vj4ig1" path="res://battleSequence/soulCage/cage_tween.gd" id="2_8xohd"]
 
 [sub_resource type="SegmentShape2D" id="SegmentShape2D_b0pbs"]
 a = Vector2(0, -84)
@@ -17,8 +17,8 @@ b = Vector2(147, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1261986613]
 position = Vector2(335, 252)
-texture = ExtResource("1_3f7ju")
-script = ExtResource("1_gsb2k")
+texture = ExtResource("1_w1kix")
+script = ExtResource("2_8xohd")
 
 [node name="leftWall" type="CollisionShape2D" parent="." unique_id=1623194312]
 position = Vector2(262, 262)
