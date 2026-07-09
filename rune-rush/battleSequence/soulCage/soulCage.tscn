@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://m2h4me5x8r77"]
 
 [ext_resource type="Texture2D" uid="uid://cvh8moplyp12l" path="res://UI-assets/soulCage.png" id="1_3f7ju"]
-[ext_resource type="Script" uid="uid://vp7s51vj4ig1" path="res://battleScenes/soulCage/cage_tween.gd" id="1_gsb2k"]
+[ext_resource type="Script" uid="uid://vp7s51vj4ig1" path="res://battleSequence/soulCage/cage_tween.gd" id="1_gsb2k"]
 
 [sub_resource type="SegmentShape2D" id="SegmentShape2D_b0pbs"]
 a = Vector2(0, -84)
