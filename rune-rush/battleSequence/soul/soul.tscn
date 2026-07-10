@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://b78xxi4bbd7al" path="res://scripts/soul-movement.gd" id="1_tscjd"]
 [ext_resource type="Texture2D" uid="uid://bifag1tu6w8js" path="res://UI-assets/soul.png" id="2_luqb1"]
+[ext_resource type="Script" uid="uid://gyax7crqenor" path="res://scripts/hurtbox.gd" id="3_luqb1"]
 
 [node name="CharacterBody2D" type="CharacterBody2D" unique_id=457028180]
 script = ExtResource("1_tscjd")
@@ -10,6 +11,8 @@ script = ExtResource("1_tscjd")
 position = Vector2(334.8, 242.8)
 texture = ExtResource("2_luqb1")
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=1972997054]
-position = Vector2(334.8, 243.8)
-polygon = PackedVector2Array(-1, -5, 1, -5, 1, -6, 3, -9, 5, -9, 8, -6, 8, 1, 6, 1, 6, 3, 4, 3, 4, 5, 2, 5, 2, 7, -2, 7, -2, 5, -4, 5, -4, 3, -6, 3, -6, 1, -8, 1, -8, -6, -6, -9, -3, -9, -1, -6)
+[node name="Area2D" type="Area2D" parent="." unique_id=1140284844]
+script = ExtResource("3_luqb1")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D" unique_id=1284246914]
+polygon = PackedVector2Array(336, 237, 336, 239, 334, 239, 334, 237, 331, 235, 329, 235, 327, 237, 327, 244, 329, 244, 329, 247, 331, 247, 331, 249, 333, 249, 333, 251, 337, 251, 337, 249, 339, 249, 339, 247, 341, 247, 341, 245, 343, 245, 343, 237, 341, 235, 338, 235)

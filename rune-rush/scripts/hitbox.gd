@@ -10,11 +10,11 @@ var owner_group: String
 
 
 #setup initial values of the object
-func _init(damage: int, hitbox_lifetime: float, shape: Shape2D) -> void:
-	self.damage = damage
-	self.hitbox_lifetime = hitbox_lifetime
-	self.shape = shape
-	self.owner_group = owner_group
+func _init(p_damage: int, p_hitbox_lifetime: float, p_shape: Shape2D, p_owner_group: String) -> void:
+	self.damage = p_damage
+	self.hitbox_lifetime = p_hitbox_lifetime
+	self.shape = p_shape
+	self.owner_group = p_owner_group
 
 #says that the hitbox will be detecting other shapes rather than being detected by other shapes
 func _ready() -> void:
@@ -31,7 +31,7 @@ func _ready() -> void:
 #this will be utilized to assign the shape of the hitbox
 	if shape:
 		var collision_shape = CollisionShape2D.new()
-		collision_shape = shape
+		collision_shape.shape = shape
 		add_child(collision_shape)
 	
 	set_collision_layer_value(1, false)
@@ -43,4 +43,5 @@ func _on_area_entered(area: Area2D) -> void:
 	if owner_group == "bullet":
 		if area.is_in_group("player_hurtbox"):
 			if area.has_method("apply_damage"):
+				print("damage taken!")
 				area.apply_damage(damage)
